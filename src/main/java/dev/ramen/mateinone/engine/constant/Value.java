@@ -63,7 +63,7 @@ public enum Value {
      * Trivial getter for {@link #value}
      * @return The value of this instance.
      */
-    public int getAbsoluteValue() { return value; }
+    public final int getAbsoluteValue() { return value; }
 
     /**
      * Gets the value of a piece, based on its color.
@@ -73,7 +73,7 @@ public enum Value {
      *                                    which the color itself is incompatible with.
      * @apiNote When getting a piece's value, always use this method over the {@link #getAbsoluteValue()} method.
      */
-    public int getColoredValue(Color color) throws IncompatibleColorException {
+    public final int getColoredValue(final Color color) throws IncompatibleColorException {
         if (getAbsoluteValue() == 0) {
             if (!color.equals(Color.NEUTRAL)) {
                 throw new IncompatibleColorException(
@@ -92,5 +92,5 @@ public enum Value {
      * Trivial all arguments constructor.
      * @param value The absolute value of the piece.
      */
-    Value(int value) { this.value = value; }
+    Value(final int value) { this.value = value; }
 }

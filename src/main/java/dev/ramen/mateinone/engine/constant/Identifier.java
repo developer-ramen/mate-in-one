@@ -59,14 +59,14 @@ public enum Identifier {
      * Specifies whether the identifier stands for a real piece that can exist ON the board.
      * This excludes the Empty and the Illegal piece.
      */
-    final boolean piece;
+    private final boolean piece;
 
     // TODO Add Javadoc about future implemented property Piece.identifier
     /**
      * The characters that contain the unique identification character needed for all colors
      * of that specific piece the identifier is referring to.
      */
-    final String characters;
+    private final String characters;
 
     /**
      * Gets the unique identification character for a color of the piece corresponding to
@@ -75,8 +75,8 @@ public enum Identifier {
      * @return The unique identification character of a piece with the certain color.
      * @throws IncompatibleColorException when an incompatible color is used for this identifier.
      */
-    public char getIdentifierCharacter(Color color) throws IncompatibleColorException {
-         char character = getCharacters().charAt(color.getIndex());
+    public final char getIdentifierCharacter(final Color color) throws IncompatibleColorException {
+         final char character = getCharacters().charAt(color.getIndex());
          if (character == ' ') {
              throw new IncompatibleColorException("Wrong color " + color.name() + " used for identifier " + name());
          }

@@ -39,11 +39,11 @@ public enum Color {
      * Trivial all arguments constructor.
      * @param index The required index property.
      */
-    Color(int index) { this.index = index; }
+    Color(final int index) { this.index = index; }
 
     /**
      * Trivial getter of {@link #index} of the enum.
      * @return The character index of the enum.
      */
-    public int getIndex() { return index; }
+    public final int getIndex() { return index; }
 }

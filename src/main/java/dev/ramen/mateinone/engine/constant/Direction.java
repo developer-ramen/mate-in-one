@@ -12,13 +12,13 @@ import java.util.stream.Stream;
  * static instances achieve.
  * TODO Add to docs about Pieces using Direction to move, do after the implementation of Piece
  */
-public class Direction extends Vector {
+public final class Direction extends Vector {
     /**
      * Trivial constructor inherited from {@link Vector}.
      * @param rank The change in rank that the direction creates.
      * @param file The change is file that the direction creates.
      */
-    private Direction(int rank, int file) {
+    private Direction(final int rank, final int file) {
         super(rank, file);
     }
 
@@ -26,7 +26,7 @@ public class Direction extends Vector {
      * Trivial copy constructor from a {@link Vector} instance.
      * @param vector The original vector to be copied to this instance of Direction.
      */
-    private Direction(Vector vector) {
+    private Direction(final Vector vector) {
         this(vector.getRank(), vector.getFile());
     }
 
