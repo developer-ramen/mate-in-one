@@ -31,7 +31,7 @@ public enum Color {
     NEUTRAL(2);
 
     /**
-     * The index in which an {@link Identifier#chars} can get a character from.
+     * The index in which an {@link Identifier#characters} can get a character from.
      */
     private final int index;
 

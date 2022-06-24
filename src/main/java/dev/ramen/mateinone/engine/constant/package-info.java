@@ -6,10 +6,7 @@
  *         <li>
  *             {@link dev.ramen.mateinone.engine.constant.Identifier}
  *             The unique character that dictates a chess piece's identity.
- *             May also be used as a representation.
- *         </li>
- *         <li>{@link dev.ramen.mateinone.engine.constant.Representation}
- *              The Unicode characters that represent a chess piece, or otherwise a Swing-compatible image.
+ *             May also be used as a representation, but it is mostly used in the engine for semantic purposes.
  *         </li>
  *         <li>
  *             {@link dev.ramen.mateinone.engine.constant.Color}
