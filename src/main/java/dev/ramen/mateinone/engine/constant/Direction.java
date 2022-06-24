@@ -30,7 +30,7 @@ public class Direction extends Vector {
         this(vector.getRank(), vector.getFile());
     }
 
-    public static Direction
+    public static final Direction
         /*
           Should not be used. Is an empty Direction that does not make a change in rank
           or file, and thus does not make a change in position and is effectively useless.
@@ -83,7 +83,7 @@ public class Direction extends Vector {
          */
         SOUTHEAST;
 
-    public static Set<Direction>
+    public static final Set<Direction>
         /*
           Should not be used. Same as above.
           TODO For each of the collections below, document their specific uses (like the Rook to the orthogonal list) after implementation of Bishop, Rook and Queen.

@@ -69,6 +69,8 @@ public enum Value {
      * Gets the value of a piece, based on its color.
      * @param color The color of the piece.
      * @return The value of the piece with that color.
+     * @throws IncompatibleColorException when an incompatible color is used for a value that is associated to an identifier
+     *                                    which the color itself is incompatible with.
      * @apiNote When getting a piece's value, always use this method over the {@link #getAbsoluteValue()} method.
      */
     public int getColoredValue(Color color) throws IncompatibleColorException {
