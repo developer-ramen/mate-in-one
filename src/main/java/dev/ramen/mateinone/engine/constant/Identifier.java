@@ -73,7 +73,7 @@ public enum Identifier {
      * the piece the enumeration is referring to (in their identifier name).
      * @param color The color that contains the index to get the identification character.
      * @return The unique identification character of a piece with the certain color.
-     * @throws IncompatibleColorException when a wrong color is used for a wrong identifier.
+     * @throws IncompatibleColorException when an incompatible color is used for this identifier.
      */
     public char getIdentifierCharacter(Color color) throws IncompatibleColorException {
          char character = getCharacters().charAt(color.getIndex());
