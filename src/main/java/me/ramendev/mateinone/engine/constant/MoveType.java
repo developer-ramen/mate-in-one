@@ -1,4 +1,4 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
 // TODO Write Tests after engine implementation.
 /**

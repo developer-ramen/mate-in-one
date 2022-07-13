@@ -1,9 +1,11 @@
-package dev.ramen.mateinone.core;
+package me.ramendev.mateinone.engine.core;
 
-import dev.ramen.mateinone.constant.Direction;
 import lombok.Value;
+import lombok.experimental.NonFinal;
+import me.ramendev.mateinone.engine.constant.Direction;
 
 @Value
+@NonFinal
 public class Vector {
     int rank, file;
 
@@ -12,7 +14,7 @@ public class Vector {
     }
 
     public Vector translate(final Direction direction) {
-        return translate(direction);
+        return direction.translate(this);
     }
 
     public Vector scale(final int scalar) {

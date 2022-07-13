@@ -1,8 +1,8 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
-import dev.ramen.mateinone.engine.exception.IncompatibleColorException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import me.ramendev.mateinone.engine.exception.IncompatibleColorException;
 
 // TODO Change the Empty and Illegal text into @links for the documentation below.
 // TODO Add the corresponding classes to a @see to every Javadoc entry below.

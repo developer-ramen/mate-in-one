@@ -1,10 +1,10 @@
-package dev.ramen.mateinone.engine.constant;
-
-import dev.ramen.mateinone.engine.core.Vector;
+package me.ramendev.mateinone.engine.constant;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import me.ramendev.mateinone.engine.core.Vector;
 
 /**
  * Provides semantic "meaning" for {@link Vector}s, which are used to describe

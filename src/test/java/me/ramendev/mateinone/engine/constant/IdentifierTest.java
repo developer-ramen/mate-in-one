@@ -1,9 +1,10 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
-import dev.ramen.mateinone.engine.exception.IncompatibleColorException;
-import lombok.SneakyThrows;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import lombok.SneakyThrows;
+import me.ramendev.mateinone.engine.exception.IncompatibleColorException;
 
 class IdentifierTest {
     @Test

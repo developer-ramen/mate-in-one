@@ -1,4 +1,4 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,11 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
-import dev.ramen.mateinone.engine.core.Vector;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;
+
+import me.ramendev.mateinone.engine.core.Vector;
 
 class DirectionTest {
     @Test

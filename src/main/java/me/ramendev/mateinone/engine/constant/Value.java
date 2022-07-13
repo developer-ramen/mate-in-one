@@ -1,9 +1,9 @@
-package dev.ramen.mateinone.engine.constant;
+package me.ramendev.mateinone.engine.constant;
 
 // TODO Add Javadoc about Piece.value property
 // TODO Add @sees to corresponding pieces.
 
-import dev.ramen.mateinone.engine.exception.IncompatibleColorException;
+import me.ramendev.mateinone.engine.exception.IncompatibleColorException;
 
 /**
  * Provides standard, non-gameplay semantic "values" based on a piece's strategic
